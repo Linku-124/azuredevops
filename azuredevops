@@ -1,0 +1,16 @@
+def main():
+    # Get user's name
+    name = input("What is your name? ")
+
+    # Get user's age
+    age = input("How old are you? ")
+    age = int(age)
+
+    # Calculate age in 10 years
+    future_age = age + 10
+
+    # Print greeting message
+    print("Hello, " + name + "! In 10 years, you will be " + str(future_age) + " years old.")
+
+if __name__ == "__main__":
+    main()
